@@ -20,7 +20,6 @@
 		</dependency>
 
 		<!-- PrimeFaces (biblioteca de componentes) -->
-		<!-- PrimeFaces (biblioteca de componentes) -->
 		<dependency>
 		    <groupId>org.primefaces</groupId>
 		    <artifactId>primefaces</artifactId>

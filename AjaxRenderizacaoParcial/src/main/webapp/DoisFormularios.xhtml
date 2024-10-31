@@ -11,7 +11,11 @@
 	<h:form>
 		<p:panelGrid columns="2">
 			<p:outputLabel value="Nome" for="nome"/>
-			<p:inputText id="nome" value="#{inversaoNomeBean.nome}"/>
+			<p:inputText id="nome" value="#{inversaoNomeBean.nome}">
+			<p:ajax listener="#{inversaoNomeBean.inverter}" 
+				update="nomeInvertido" event="keyup"/>
+			</p:inputText>
+				
 		</p:panelGrid>
 		
 		<br/>
@@ -20,7 +24,6 @@
 		
 		<br/>
 		
-		<p:commandButton value="Inveter" action="#{inversaoNomeBean.inverter}" update="nomeInvertido"/>
 	</h:form>
 
 </h:body>

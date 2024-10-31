@@ -8,20 +8,26 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </h:head>
 <h:body>
-	<h:form>
+	<h:form id="frm">
 		<p:panelGrid columns="2">
 			<p:outputLabel value="Nome" for="nome"/>
-			<p:inputText id="nome" value="#{inversaoNomeBean.nome}"/>
+			<p:inputText id="nome" value="#{inversaoNomeBean.nome}">
+			<p:ajax listener="#{inversaoNomeBean.inverter}" 
+				update="nomeInvertido quantidadePalavras" event="keyup"/>
+			</p:inputText>
+				
 		</p:panelGrid>
 		
 		<br/>
-		
 		<h:outputText value="#{inversaoNomeBean.nomeInvertido}" id="nomeInvertido"/>
+		<br/>
+		<h:outputText value="#{inversaoNomeBean.quantidadePalavras}" id="quantidadePalavras"/>
+		
 		
 		<br/>
 		
-		<p:commandButton value="Inveter" action="#{inversaoNomeBean.inverter}" update="nomeInvertido"/>
 	</h:form>
+	
 
 </h:body>
 </html>
