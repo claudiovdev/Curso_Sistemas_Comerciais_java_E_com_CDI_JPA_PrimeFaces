@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="Calendar" path="/Calendar" reloadable="true" source="org.eclipse.jst.jee.server:Calendar"/><Context docBase="PrimeiroProjetoPrimeFaces" path="/PrimeiroProjetoPrimeFaces" reloadable="true" source="org.eclipse.jst.jee.server:PrimeiroProjetoPrimeFaces"/><Context docBase="inputOutPutButton" path="/inputOutPutButton" reloadable="true" source="org.eclipse.jst.jee.server:inputOutPutButton"/><Context docBase="AjaxRenderizacaoParcial" path="/AjaxRenderizacaoParcial" reloadable="true" source="org.eclipse.jst.jee.server:AjaxRenderizacaoParcial"/><Context docBase="ProcessamentoParcial" path="/ProcessamentoParcial" reloadable="true" source="org.eclipse.jst.jee.server:ProcessamentoParcial"/></Host>
+      <Context docBase="AjaxStatus" path="/AjaxStatus" reloadable="true" source="org.eclipse.jst.jee.server:AjaxStatus"/></Host>
     </Engine>
   </Service>
 </Server>
