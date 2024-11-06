@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="InputTextarea" path="/InputTextarea" reloadable="true" source="org.eclipse.jst.jee.server:InputTextarea"/></Host>
+      <Context docBase="Calendar" path="/Calendar" reloadable="true" source="org.eclipse.jst.jee.server:Calendar"/></Host>
     </Engine>
   </Service>
 </Server>
