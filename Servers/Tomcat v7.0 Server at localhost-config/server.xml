@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="Password" path="/Password" reloadable="true" source="org.eclipse.jst.jee.server:Password"/></Host>
+      <Context docBase="InputTextarea" path="/InputTextarea" reloadable="true" source="org.eclipse.jst.jee.server:InputTextarea"/></Host>
     </Engine>
   </Service>
 </Server>
