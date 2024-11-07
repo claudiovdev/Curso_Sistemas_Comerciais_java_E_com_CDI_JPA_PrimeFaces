@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="SelectOneRadio" path="/SelectOneRadio" reloadable="true" source="org.eclipse.jst.jee.server:SelectOneRadio"/></Host>
+      <Context docBase="SelectManyCheckbox" path="/SelectManyCheckbox" reloadable="true" source="org.eclipse.jst.jee.server:SelectManyCheckbox"/></Host>
     </Engine>
   </Service>
 </Server>
