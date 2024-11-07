@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="SelectOneMenuFiltro" path="/SelectOneMenuFiltro" reloadable="true" source="org.eclipse.jst.jee.server:SelectOneMenuFiltro"/></Host>
+      <Context docBase="MenusSelecaoDependentes" path="/MenusSelecaoDependentes" reloadable="true" source="org.eclipse.jst.jee.server:MenusSelecaoDependentes"/></Host>
     </Engine>
   </Service>
 </Server>
