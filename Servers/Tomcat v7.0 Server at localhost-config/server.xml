@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="AutoCompletePOJO" path="/AutoCompletePOJO" reloadable="true" source="org.eclipse.jst.jee.server:AutoCompletePOJO"/></Host>
+      <Context docBase="SelectBooleanCheckbox" path="/SelectBooleanCheckbox" reloadable="true" source="org.eclipse.jst.jee.server:SelectBooleanCheckbox"/></Host>
     </Engine>
   </Service>
 </Server>
