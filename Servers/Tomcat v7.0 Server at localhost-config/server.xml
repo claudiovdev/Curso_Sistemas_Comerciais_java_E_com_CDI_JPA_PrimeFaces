@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="SelectBooleanCheckbox" path="/SelectBooleanCheckbox" reloadable="true" source="org.eclipse.jst.jee.server:SelectBooleanCheckbox"/></Host>
+      <Context docBase="InputMask" path="/InputMask" reloadable="true" source="org.eclipse.jst.jee.server:InputMask"/></Host>
     </Engine>
   </Service>
 </Server>
