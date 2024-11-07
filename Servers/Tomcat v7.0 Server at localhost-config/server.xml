@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="Calendar" path="/Calendar" reloadable="true" source="org.eclipse.jst.jee.server:Calendar"/></Host>
+      <Context docBase="SelectOneListbox" path="/SelectOneListbox" reloadable="true" source="org.eclipse.jst.jee.server:SelectOneListbox"/></Host>
     </Engine>
   </Service>
 </Server>
