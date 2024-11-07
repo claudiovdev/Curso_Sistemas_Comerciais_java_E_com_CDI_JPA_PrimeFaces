@@ -12,11 +12,12 @@
 	<dependencies>
 		<!-- Mojarra (implementação do JSF 2) -->
 		<dependency>
-			<groupId>org.glassfish</groupId>
-			<artifactId>javax.faces</artifactId>
-			<version>2.1.17</version>
-			<scope>compile</scope>
+		    <groupId>org.glassfish</groupId>
+		    <artifactId>javax.faces</artifactId>
+		    <version>2.2.20</version> <!-- ou versão 2.3.9, se preferir -->
+		    <scope>compile</scope>
 		</dependency>
+
 
 		<!-- PrimeFaces (biblioteca de componentes) -->
 		<dependency>
