@@ -10,14 +10,14 @@
 <h:body>
 
 	<h:form id="frm">
-		<p:dataTable value="#{funcionariosBean.funcionarios}" var="funcionario">
-			<p:column headerText="Matricula" style="text-align: center" width="90">
+		<p:dataTable value="#{funcionariosBean.funcionarios}" var="funcionario" sortBy="#{funcionario.matricula}">
+			<p:column headerText="Matricula" style="text-align: center" width="90" sortBy="#{funcionario.matricula}">
 				<h:outputText value="#{funcionario.matricula}" />
 			</p:column>
-			<p:column headerText="Nome">
+			<p:column headerText="Nome" sortBy="#{funcionario.nome}">
 				<h:outputText value="#{funcionario.nome}"/>
 			</p:column>
-			<p:column headerText="Data de admssão" width="180" style="text-align: center">
+			<p:column headerText="Data de admssão" width="180" style="text-align: center" sortBy="{funcionario.dataAdmissao}">
 				<h:outputText value="#{funcionario.dataAdmissao}">
 					<f:convertDateTime pattern="dd/MM/yyyy"/>
 				</h:outputText>
