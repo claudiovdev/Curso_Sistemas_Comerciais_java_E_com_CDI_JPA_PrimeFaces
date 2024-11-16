@@ -10,7 +10,8 @@
 <h:body>
 
 	<h:form id="frm">
-		<p:dataTable value="#{funcionariosBean.funcionarios}" var="funcionario" sortBy="#{funcionario.matricula}">
+		<p:dataTable value="#{funcionariosBean.funcionarios}" var="funcionario" sortBy="#{funcionario.matricula}" 
+		rows="10" paginator="true" paginatorPosition="bottom" rowsPerPageTemplate="10,20,30" paginatorAlwaysVisible="false">
 			<p:column headerText="Matricula" style="text-align: center" width="90" sortBy="#{funcionario.matricula}">
 				<h:outputText value="#{funcionario.matricula}" />
 			</p:column>

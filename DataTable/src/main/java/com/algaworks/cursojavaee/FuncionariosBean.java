@@ -27,7 +27,7 @@ public class FuncionariosBean implements Serializable {
 	public FuncionariosBean() throws ParseException {
 		funcionarios = new ArrayList<>();
 		
-		for (int i = 0; i < 50; i++) {
+		for (int i = 0; i < 500; i++) {
 			adicionarFuncionario();
 		}
 	}
