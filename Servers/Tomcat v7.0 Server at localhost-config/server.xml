@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="TabView" path="/TabView" reloadable="true" source="org.eclipse.jst.jee.server:TabView"/></Host>
+      <Context docBase="DataTable" path="/DataTable" reloadable="true" source="org.eclipse.jst.jee.server:DataTable"/></Host>
     </Engine>
   </Service>
 </Server>
