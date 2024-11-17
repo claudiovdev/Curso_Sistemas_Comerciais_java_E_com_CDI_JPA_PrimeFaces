@@ -62,3 +62,7 @@ h1{
 	width: 35px;
 	height: 35px;
 }
+
+.produto-tabela input{
+	width: 99%;
+}
