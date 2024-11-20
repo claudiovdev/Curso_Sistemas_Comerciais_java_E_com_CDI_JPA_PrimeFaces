@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="Dialog" path="/Dialog" reloadable="true" source="org.eclipse.jst.jee.server:Dialog"/></Host>
+      <Context docBase="ConfirmDialog" path="/ConfirmDialog" reloadable="true" source="org.eclipse.jst.jee.server:ConfirmDialog"/></Host>
     </Engine>
   </Service>
 </Server>
