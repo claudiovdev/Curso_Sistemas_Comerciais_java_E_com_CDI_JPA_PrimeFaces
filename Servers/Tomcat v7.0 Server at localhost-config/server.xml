@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="ConfigurandoProjetoJSFeCDI" path="/ConfigurandoProjetoJSFeCDI" reloadable="true" source="org.eclipse.jst.jee.server:ConfigurandoProjetoJSFeCDI"/></Host>
+      <Context docBase="Qualificadores" path="/Qualificadores" reloadable="true" source="org.eclipse.jst.jee.server:Qualificadores"/></Host>
     </Engine>
   </Service>
 </Server>
