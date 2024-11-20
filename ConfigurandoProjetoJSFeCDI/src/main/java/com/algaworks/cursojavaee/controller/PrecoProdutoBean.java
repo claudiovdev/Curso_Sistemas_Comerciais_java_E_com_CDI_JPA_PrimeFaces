@@ -16,7 +16,7 @@ public class PrecoProdutoBean implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 	
-	@Inject
+//	@Inject
 	private CalculadoraPreco calculadoraPreco;
 	
 	@PostConstruct
@@ -24,8 +24,11 @@ public class PrecoProdutoBean implements Serializable{
 		System.out.println("Init PrecoProdutoBean");
 	}
 	
-	
 	public double getPreco() {
 		return calculadoraPreco.calcularPreco(12, 10.50);
 	}
+	
+	@Inject
+	public void setCalculadora(CalculadoraPreco calc) {
+		this.calculadoraPreco = calc;
 }
