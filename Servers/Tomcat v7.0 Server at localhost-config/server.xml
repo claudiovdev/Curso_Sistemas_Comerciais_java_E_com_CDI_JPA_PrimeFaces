@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="Menubar" path="/Menubar" reloadable="true" source="org.eclipse.jst.jee.server:Menubar"/></Host>
+      <Context docBase="Dialog" path="/Dialog" reloadable="true" source="org.eclipse.jst.jee.server:Dialog"/></Host>
     </Engine>
   </Service>
 </Server>
