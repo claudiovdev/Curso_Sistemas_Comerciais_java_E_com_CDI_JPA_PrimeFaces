@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="Qualificadores" path="/Qualificadores" reloadable="true" source="org.eclipse.jst.jee.server:Qualificadores"/></Host>
+      <Context docBase="MetodosProdutores" path="/MetodosProdutores" reloadable="true" source="org.eclipse.jst.jee.server:MetodosProdutores"/></Host>
     </Engine>
   </Service>
 </Server>
