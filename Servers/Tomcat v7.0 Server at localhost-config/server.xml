@@ -156,7 +156,7 @@
 
         <!-- External resources -->
         <!-- <Context docBase="${catalina.base}/custom" path="/OpenKM/custom" reloadable="true"/> -->
-      <Context docBase="TratandoOutrasExcecoes" path="/PedidoVenda" reloadable="true" source="org.eclipse.jst.jee.server:TratandoOutrasExcecoes"/></Host>
+      </Host>
     </Engine>
   </Service>
 </Server>
