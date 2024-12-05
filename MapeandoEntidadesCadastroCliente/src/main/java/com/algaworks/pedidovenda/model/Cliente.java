@@ -1,6 +1,5 @@
 package com.algaworks.pedidovenda.model;
 
-import java.beans.Transient;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
